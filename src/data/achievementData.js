@@ -6,7 +6,7 @@ export const achievementData = {
             title : 'Agile Project Management ',
             details : 'University of Winnipeg (PACE) | Winnipeg.',
             date : 'Feb, 2019',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -14,7 +14,7 @@ export const achievementData = {
             title : 'Certified Ethical Hacking (CEH)',
             details : 'IT Training Nepal | Kathmandu, Nepal.',
             date : 'Feb, 2017',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -22,7 +22,7 @@ export const achievementData = {
             title : '•	Building Dynamic Websites, SQL Server, Dreamweaver',
             details : 'APTECH Computer Education| Kathmandu, Nepal.',
             date : 'May, 2017',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -30,7 +30,7 @@ export const achievementData = {
             title : 'Information Systems Management ',
             details : 'APTECH Computer Education | Kathmandu, Nepal.',
             date : 'May, 2017',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -38,7 +38,7 @@ export const achievementData = {
             title : 'Network Engineer',
             details : 'APTECH Computer Education | Kathmandu, Nepal.',
             date : 'March, 2017',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -46,7 +46,7 @@ export const achievementData = {
             title : 'Network Engineer',
             details : 'APTECH Computer Education | Kathmandu, Nepal.',
             date : 'March, 2017',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -54,7 +54,7 @@ export const achievementData = {
             title : 'Relational Database Management Systems',
             details : 'NIIT | Bangalore, India.',
             date : 'March, 2016',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -62,7 +62,7 @@ export const achievementData = {
             title : 'Object-Oriented Programming Using C#',
             details : 'NIIT | Bangalore, India.',
             date : 'October, 2015',
-            field : 'Automation',
+            field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         }
 

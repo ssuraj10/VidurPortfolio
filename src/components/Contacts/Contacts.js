@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
@@ -26,8 +26,12 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
+import { firestore } from '../../firebase';
+import { addDoc, collection } from "@firebase/firestore";
 
 function Contacts() {
+    const messageRef = useRef();
+    const ref = collection(firestore, "contact")
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
@@ -140,8 +144,8 @@ function Contacts() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
+                try {
+                    const res = addDoc(ref, responseData);
                     setSuccess(true);
                     setErrMsg('');
 
@@ -149,7 +153,11 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
-                });
+                   
+                } catch (e) {
+                    alert('Error')
+                }
+                
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);

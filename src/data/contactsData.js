@@ -3,5 +3,5 @@ export const contactsData = {
     phone: '(204)-914-2206 ',
     address: 'Winnipeg, Manitoba, Canada',
 
-    sheetAPI: ''
+    sheetAPI: 'https://contact-a1a48-default-rtdb.firebaseio.com/contact'
 }
