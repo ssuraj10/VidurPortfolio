@@ -2,11 +2,9 @@ import React, { useContext } from 'react';
 import Marquee from "react-fast-marquee";
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import './Skills.css'
-import Slider from "react-slick";
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData';
 import { skillsImage } from '../../utils/skillsImage';
-import Carousel from 'react-elastic-carousel';
 const PreviousBtn = (props) => {
     // console.log(props);
     const { className, onClick } = props;
@@ -49,16 +47,24 @@ function Skills() {
                 <div className="skill--scroll">
                    
 
-                    <Carousel breakPoints={breakPoints}>
+                <Marquee 
+                        gradient={false} 
+                        speed={80} 
+                        pauseOnHover={true}
+                        pauseOnClick={true} 
+                        delay={0}
+                        play={true} 
+                        direction="left"
+                    >
                         {skillsData.map((skill, id) => (
-                            <div className="skill-slider" key={id} style={skillBoxStyle}>
+                            <div className="skill--box" key={id} style={skillBoxStyle}>
                                 <img src={skillsImage(skill)} alt={skill} />
-                                <h3 style={{ color: theme.tertiary }}>
+                                <h3 style={{color: theme.tertiary}}>
                                     {skill}
                                 </h3>
                             </div>
                         ))}
-                    </Carousel>
+                    </Marquee>
                     
                 </div>
             </div>
